@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Ejecución de auditoría',
+    descripcionCurso:
+      'Este componente contiene los elementos necesarios para que el aprendiz desarrolle conocimientos sobre cómo redactar un informe de auditoría revisando la documentación de una unidad productiva y utilizando los instrumentos de auditoría para la recolección de información, con el fin de realizar un informe final con los resultados (hallazgos) encontrados a la junta directiva para acciones de mejora continua.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,27 +36,49 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de evaluación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evidencia objetiva',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Observación',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Entrevistas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Instrumentos de auditoría',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Comunicación ',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Hallazgos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema8',
+        numero: '8',
+        titulo: 'Informe de auditoría',
         desarrolloContenidos: true,
       },
     ],
@@ -85,6 +112,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_03_7221005.zip',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
@@ -97,32 +129,103 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
+      tema: '8. Informe de auditoría al final de la sección',
+      referencia:
+        'Segovia, K. (2020). Elaboración de un Informe de Auditoría. Bureau Veritas Formación. [Video] YouTube.',
       tipo: '',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=vGq5AF8-0FI',
     },
     {
-      tema: '',
-      referencia: '',
+      tema: '8. Informe de auditoría al final de la sección',
+      referencia:
+        'Martínez, C. (2015). Informe de Auditoría. Universidad Católica de Murcia. [Video]. YouTube.',
       tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      link: 'https://www.youtube.com/watch?v=IEPhVzz5gZo',
+    },
+    {
+      tema: '8. Informe de auditoría al final de la sección',
+      referencia:
+        'ICONTEC. (s.f.).  ISO 19011:2018. Directrices para la Auditoría de Sistemas de Gestión.',
+      tipo: 'PDF',
+      link:
+        'https://siga.unal.edu.co/images/informes-presentaciones/ISO_19011_2018_Directrices_auditoria_sistemas_gestion.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Conformidad',
+      significado:
+        'cumplimiento de un requisito encontrado en la auditoría; puede ser observación y oportunidad de mejora.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Entrevista',
+      significado:
+        'tipo de técnica para recopilar información, conformada de un grupo de preguntas preparadas que se van adaptando a medida que recibe información dependiendo de las circunstancias, buscando la información más útil para realizar la auditoría.',
+    },
+    {
+      termino: 'Evidencia objetiva',
+      significado:
+        'información que respalda la existencia o veracidad de algo, atendiendo a los hechos y a la lógica y no dependen de la opinión, sentimientos, sensaciones o punto de vista del auditor.',
+    },
+    {
+      termino: 'Informe final de auditoría',
+      significado:
+        'es en documento que formaliza los resultados de la auditoría, donde el auditor plasma las conclusiones y recomendaciones sobre los aspectos evaluados, como temas administrativos, financieros y operativos.',
+    },
+    {
+      termino: 'Instrumentos de auditoría',
+      significado:
+        'son todas aquellas herramientas que el auditor y su equipo de trabajo pueden utilizar para evidenciar los resultados, procesos, hallazgos en los diversos tipos de auditorías que se pueden realizar, es decir, es la manera en cómo se presenta la información o los resultados.',
+    },
+    {
+      termino: 'Hallazgo',
+      significado:
+        'es el resultado de la evaluación de la evidencia de la auditoría recopilada frente a los criterios de auditoría.',
+    },
+    {
+      termino: 'No conformidad',
+      significado: 'incumplimiento de un requisito encontrado en la auditoría.',
+    },
+    {
+      termino: 'Observación',
+      significado:
+        'sí cumple, pero que puede convertirse en incumplimiento porque existe una inconsistencia en cómo se desarrolla la actividad o proceso. Es necesario realizar correcciones.',
+    },
+    {
+      termino: 'Oportunidad de mejora',
+      significado:
+        'sí cumple, pero existe posibilidad de mejorar para optimizar la actividad o proceso. No es obligatorio realizar correcciones.',
+    },
+    {
+      termino: 'Técnicas de evaluación',
+      significado:
+        'son los recursos de investigación que el auditor utiliza para obtener la información necesaria que ha obtenido o la organización le ha suministrado (evidencia primaria) para realizar la verificación.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Escuela europea de excelencia. (s.f.). Técnicas y métodos de auditoría. ',
+      link:
+        'https://www.escuelaeuropeaexcelencia.com/2019/11/tecnicas-y-metodos-de-auditoria/',
+    },
+    {
+      referencia:
+        'ICONTEC. (2015). Norma Técnica Colombiana NTC- ISO 9000. Sistemas de gestión de calidad. Fundamentos y vocabulario. ',
+      link:
+        'https://www.ramajudicial.gov.co/documents/5454330/14491339/d2.+NTC+ISO+9000-2015.pdf/ccb4b35c-ee63-44b5-ba1e-7459f8714031',
+    },
+    {
+      referencia:
+        'IFAC- Federación Internacional de Contadores. (s.f.). Norma Internacional de Auditoría NIA- 500. Evidencia de auditoría. ',
+      link:
+        'https://asocex.es/wp-content/uploads/2017/02/GPF-OCEX-1500_Evidencia-de-auditoria.pdf',
+    },
+    {
+      referencia:
+        'ISO- Organización Internacional de Normalización. (2018). Norma internacional ISO 19011. ',
+      link:
+        'https://www.cecep.edu.co/documentos/calidad/norma-iso-19011-2018.pdf',
     },
   ],
   creditos: [
@@ -135,9 +238,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -145,9 +248,45 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Víctor Julián Ardila',
+          cargo: 'Experto Temático',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Diana Carolina Sánchez Rodríguez',
+          cargo: 'Experto Temático',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Ana Vela Rodríguez Velásquez',
+          cargo: 'Diseñadora Instruccional',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo Desarrollo Curricular',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrector de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Sergio Augusto Ardila Ortiz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -155,19 +294,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Andres Herrera',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Oscar Daniel Espitia Marín',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboarde Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Produccióon Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oscar Daniel Espitia Marín',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -175,14 +329,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
