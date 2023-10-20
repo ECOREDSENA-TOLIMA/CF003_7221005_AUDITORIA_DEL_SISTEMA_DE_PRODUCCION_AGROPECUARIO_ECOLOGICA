@@ -263,9 +263,9 @@ export default {
           centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
-          nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Asesor Metodológico',
-          centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Asesora Metodológico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
@@ -274,7 +274,7 @@ export default {
             'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Darío González',
+          nombre: 'Jhon Jairo Rodríguez Pérez',
           cargo: 'Corrector de Estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
@@ -294,8 +294,8 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Andres Herrera',
-          cargo: 'Diseñador Web',
+          nombre: 'Aruzidna Sánchez Alonso',
+          cargo: 'Diseñadora Web',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
