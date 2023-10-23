@@ -80,7 +80,7 @@
         .row
           .col-md-6.col-12.mb-4.mb-md-0
             h4 Observación
-            p Se revisa cómo en la práctica se realizan las actividades y se verifica in situ, es decir de forma física el desarrollo de las mismas.
+            p Se revisa cómo en la práctica se realizan las actividades y se verifica #[em in situ], es decir de forma física el desarrollo de las mismas.
           .col-md-6.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-9.png', alt='')
@@ -111,7 +111,7 @@
                   ul.lista-ul.mb-3.ms-3
                     li 
                       i.lista-ul__vineta
-                      | Realizar entrevistas
+                      | Realizar entrevistas.
                     li 
                       i.lista-ul__vineta
                       | Revisar la lista de verificación y cuestionarios.

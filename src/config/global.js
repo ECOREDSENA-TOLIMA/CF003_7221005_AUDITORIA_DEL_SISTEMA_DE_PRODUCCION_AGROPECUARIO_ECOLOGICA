@@ -132,14 +132,14 @@ export default {
       tema: '8. Informe de auditoría al final de la sección',
       referencia:
         'Segovia, K. (2020). Elaboración de un Informe de Auditoría. Bureau Veritas Formación. [Video] YouTube.',
-      tipo: '',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=vGq5AF8-0FI',
     },
     {
       tema: '8. Informe de auditoría al final de la sección',
       referencia:
         'Martínez, C. (2015). Informe de Auditoría. Universidad Católica de Murcia. [Video]. YouTube.',
-      tipo: '',
+      tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=IEPhVzz5gZo',
     },
     {
