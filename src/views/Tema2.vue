@@ -15,7 +15,7 @@
         p.mb-0 Se define la evidencia objetiva como la información que respalda la existencia o veracidad de algo, atendiendo a los hechos y a la lógica y no dependen de la opinión, sentimientos, sensaciones o punto de vista del auditor, por lo tanto, solo se admiten las evidencias que no están sometidas a interpretación.  
           br
           br
-          | La cantidad de evidencia es suficiente cuando el auditor considera que han aportado lo requerido para sustentar su opinión (IFAC, 2017). Esta se considera fiable, relevante o contundente, cuando el auditor la observa adecuada y oportuna cumpliendo las características que se pueden ver a continuación.
+          | La cantidad de evidencia es suficiente cuando el auditor considera que han aportado lo requerido para sustentar su opinión (IFAC, 2017). Esta se considera fiable, relevante o contundente, cuando el auditor la observa adecuada y oportuna cumpliendo las características que se pueden ver a continuación:
 
     .row.mb-5(data-aos="fade-down-right")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -61,7 +61,7 @@
         i.lista-ul__vineta
         | El auditor tiene dudas respecto a la veracidad de la información obtenida. 
 
-    p.mb-5(data-aos="fade-down") Es entonces que este tipo de evidencia se puede obtener mediante los métodos que se pueden ver a continuación.
+    p.mb-5(data-aos="fade-down") Es entonces que este tipo de evidencia se puede obtener mediante los métodos que se pueden ver a continuación:
 
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-down")
       .row(titulo="Documentos del sistema")
@@ -88,7 +88,7 @@
             img(src='@/assets/curso/temas/tema2/tema2-6.png', alt='')
       .row(titulo="Evidencia documental")
         .col-md-6.mb-4.mb-md-0
-          p Corresponde a la información que presenta la organización a manera de registros, o manuales. Aunque es bastante útil, no siempre esta documentada por lo que hay que revisar otras fuentes.
+          p Corresponde a la información que presenta la organización a manera de registros, o manuales. Aunque es bastante útil, no siempre está documentada por lo que hay que revisar otras fuentes.
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema2/tema2-7.png', alt='')

@@ -59,36 +59,36 @@
 
     p.mb-4(data-aos="fade-down-left") Al finalizar la auditoría, se procede a entregar el informe al cliente, generalmente al concluir el proceso. Durante este momento, se llevan a cabo varias acciones y comunicaciones esenciales:
 
-    .row.justify-content-center.mb-4
-      .col-12.col-md-12(data-aos="fade-down")
+    .row.justify-content-center.mb-4(data-aos="fade-down-right")
+      .col-12.col-md-12
         .tarjeta-avatar-b.custom-c.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema8/tema8-1.svg' alt='')
           .tarjeta.tarjeta--custom--borde
             .p-4
               p.mb-0 #[b a)	Entrega del informe al cliente:] se proporciona el informe de auditoría al cliente o a la alta dirección de la organización auditada. Este proceso debe realizarse de manera formal y oportuna, asegurando que el informe llegue a las partes interesadas apropiadas.
-      .col-12.col-md-12(data-aos="fade-down")
+      .col-12.col-md-12
         .tarjeta-avatar-b.custom-c.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema8/tema8-2.svg' alt='')
           .tarjeta.tarjeta--custom--borde
             .p-4
               p.mb-0 #[b b)	Firma de las partes interesadas:] es común que las partes interesadas, incluyendo representantes de la organización auditada y del equipo auditor, firmen el informe como una confirmación de que han revisado y comprendido su contenido. Esta firma puede ser considerada como una aceptación formal de los hallazgos y recomendaciones.
-      .col-12.col-md-12(data-aos="fade-down")
+      .col-12.col-md-12
         .tarjeta-avatar-b.custom-c.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema8/tema8-3.svg' alt='')
           .tarjeta.tarjeta--custom--borde
             .p-4
               p.mb-0 #[b c)	Comunicación de plazos:] en el informe de auditoría, se suele indicar el tiempo estimado para la presentación del plan de acción en caso de haberse identificado no conformidades. Esto proporciona a la organización auditada una expectativa clara sobre cuándo se espera que entregue su plan de acción para abordar los problemas identificados durante la auditoría.
-      .col-12.col-md-12(data-aos="fade-down")
+      .col-12.col-md-12
         .tarjeta-avatar-b.custom-c.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema8/tema8-4.svg' alt='')
           .tarjeta.tarjeta--custom--borde
             .p-4
               p.mb-0 #[b d)	Seguimiento y coordinación:] después de la entrega del informe, es fundamental establecer una comunicación efectiva con la organización auditada para asegurarse de que comprenden completamente los hallazgos y recomendaciones, y para responder a cualquier pregunta o inquietud que puedan surgir. También es importante coordinar el seguimiento de la implementación del plan de acción y verificar que se están tomando las medidas adecuadas para abordar las no conformidades identificadas.
-      .col-12.col-md-12(data-aos="fade-down")
+      .col-12.col-md-12
         .tarjeta-avatar-b.custom-c.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema8/tema8-5.svg' alt='')

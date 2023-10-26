@@ -45,7 +45,7 @@
                 td.p-2.md-p-3
                   p Incumplimiento de un requisito encontrado en la auditoría.
               
-    p.mb-5(data-aos="fade-down-left") Cuando se identifica una “No conformidad”, se deben realizar los pasos que se muestran a continuación.
+    p.mb-5(data-aos="fade-down-left") Cuando se identifica una “No conformidad”, se deben realizar los pasos que se muestran a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12(data-aos="fade-right")

@@ -92,7 +92,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/tema1-10.png', alt='')
 
-    p.mb-5(data-aos="fade-down") Sin embargo, dependiendo del sitio donde se realice la auditoría, las técnicas de evaluación que se aplican pueden variar, estás se explican a continuación. 
+    p.mb-5(data-aos="fade-down") Sin embargo, dependiendo del sitio donde se realice la auditoría, las técnicas de evaluación que se aplican pueden variar, estás se explican a continuación: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-12(data-aos="fade-right")

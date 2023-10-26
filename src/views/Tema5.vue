@@ -17,8 +17,10 @@
           table(style="min-width:auto")
             thead
               tr.cabecera-a.text-center
-                th(colspan="2") 
-                  h3.mb-0 Instrumentos de auditoría
+                th
+                  h3.mb-0 Instrumento
+                th
+                  h3.mb-0 Definición
             tbody
               tr
                 th.p-2.text-center(style="width:25%") Cuestionarios

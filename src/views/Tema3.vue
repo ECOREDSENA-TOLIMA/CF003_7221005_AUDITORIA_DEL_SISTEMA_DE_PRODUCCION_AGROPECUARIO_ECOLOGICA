@@ -15,7 +15,7 @@
         p.mb-0 La observación es un tipo de técnica que utiliza el auditor para recolectar información o lo que durante el curso se le ha nombrado como evidencia, cuyo objetivo principal es verificar que las empresas cumplan lo planificado, por lo que asegura que los hechos y documentos sean equivalentes y por lo tanto verificables, es decir que deben cumplir con las reglamentaciones y normatividad a las que se comprometieron para su posterior análisis. 
 
     p.mb-4(data-aos="fade-down") Las mejores auditorías que se llevan a cabo dependen de la habilidad del auditor en realizar eficazmente las observaciones y por lo general cuentan con un proceso exhaustivo de revisión de todo el proceso de la empresa, por lo que es allí donde se colecta la mayor cantidad de información cualitativa y cuantitativa. 
-    p.mb-5(data-aos="fade-down") En adición, el auditor cuenta con diferentes opciones para realizar estas observaciones, como las que se pueden revisar a continuación.
+    p.mb-5(data-aos="fade-down") En adición, el auditor cuenta con diferentes opciones para realizar estas observaciones, como las que se pueden revisar a continuación:
 
     .row.mb-5(data-aos="fade-down")
       .col-12.col-lg-9.mb-5.mb-md-0

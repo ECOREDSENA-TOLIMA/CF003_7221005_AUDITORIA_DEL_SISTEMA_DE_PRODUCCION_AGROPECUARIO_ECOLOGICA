@@ -15,7 +15,7 @@
         p.mb-0 La entrevista se considera la principal técnica para recopilar información, conformada de un grupo de preguntas preparadas que se van adaptando a medida que se recibe y dependiendo de las circunstancias, por lo que siempre se espera realizar preguntas cada vez más útiles para la auditoría. 
           br
           br
-          | Es importante recordar que el auditor realiza las entrevistas de forma directa y corrobora la información de los aspectos que se están auditando. Las preguntas pueden ser realizadas de diferentes formas, tal como se muestra a continuación .
+          | Es importante recordar que el auditor realiza las entrevistas de forma directa y corrobora la información de los aspectos que se están auditando. Las preguntas pueden ser realizadas de diferentes formas, tal como se muestra a continuación:
 
     .row.mb-5(data-aos="fade-down")
       .col-md-6.col-xl.mb-4.mb-xl-0.d-flex.align-items-stretch
