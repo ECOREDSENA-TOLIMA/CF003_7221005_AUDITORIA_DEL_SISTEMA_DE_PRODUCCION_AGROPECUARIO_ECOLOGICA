@@ -35,7 +35,7 @@
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema6/fig2-a.svg', alt='En la figura 2, se muestra la forma como se emite la comunicación según la entidad o el auditor en el proceso de desarrollo de la auditoría.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema6/fig2-b.svg', alt='En la figura 2, se muestra la forma como se emite la comunicación según la entidad o el auditor en el proceso de desarrollo de la auditoría.')  
-          figcaption Nota. Adaptado de Rozas Flores, A. (s.f.). Comunicaciones de auditoría en entidades públicas. <a href="https://revistasinvestigacion.unmsm.edu.pe/index.php/quipu/article/view/5701/4933" target="_blank" style="color:blue">https://revistasinvestigacion.unmsm.edu.pe/index.php/quipu/article/view/5701/4933</a>
+          figcaption Nota. Adaptado de Rozas Flores, A. (s.f.). Comunicaciones de auditoría en entidades públicas. <a href="https://revistasinvestigacion.unmsm.edu.pe/index.php/quipu/article/view/5701/4933" target="_blank" style="color:blue; overflow-wrap: break-word;">https://revistasinvestigacion.unmsm.edu.pe/index.php/quipu/article/view/5701/4933</a>
 
     p.mb-5(data-aos="fade-down-left") El documento mediante el cual el auditor comunica a la entidad los resultados de su auditoría es lo que se conoce como la comunicación, este debe tener unas condiciones muy claras las cuales se describen a continuación:
     
@@ -49,7 +49,7 @@
           p Es una declaración que hace la gerencia o la administración sobre el sistema o estructura de control interno de la organización, para que sea tenida en cuenta por parte del auditor.
       .row(titulo="Memorando de requerimiento")
         .col-12.mb-4.mb-md-0
-          p En este documento el auditor solicita de manera formal por parte de la organización, los documentos, información, componente o material que él considere que le pueda servir como evidencia sobre alguna situación en particular durante el desarrollo de la auditoría.
+          p En este documento, el auditor solicita de manera formal por parte de la organización, los documentos, información, componente o material que él considere que le pueda servir como evidencia sobre alguna situación en particular durante el desarrollo de la auditoría.
       .row(titulo="Comunicación de hallazgos o comunicación de observaciones")
         .col-12.mb-4.mb-md-0
           p El auditor líder comunica a los empleados los hallazgos encontrados durante el proceso de la auditoría y les solicita que presenten sus documentos con los comentarios o aclaraciones sobre alguna situación, para que sea tenido en cuenta en el informe final de la auditoría y en un plazo determinado. 

@@ -15,7 +15,7 @@
         p.mb-0 Se define la evidencia objetiva como la información que respalda la existencia o veracidad de algo, atendiendo a los hechos y a la lógica y no dependen de la opinión, sentimientos, sensaciones o punto de vista del auditor, por lo tanto, solo se admiten las evidencias que no están sometidas a interpretación.  
           br
           br
-          | La cantidad de evidencia es suficiente cuando el auditor considera que han aportado lo requerido para sustentar su opinión (IFAC, 2017). Esta se considera fiable, relevante o contundente, cuando el auditor la observa adecuada y oportuna cumpliendo las características que se pueden ver a continuación:
+          | La cantidad de evidencia es suficiente cuando el auditor considera que han aportado lo requerido para sustentar su opinión (IFAC, 2017). Esta se considera fiable, relevante o contundente, cuando el auditor la observa adecuada y oportuna, cumpliendo las características que se pueden ver a continuación:
 
     .row.mb-5(data-aos="fade-down-right")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -74,7 +74,7 @@
           p También mediante los registros se puede comprobar la eficacia y la trazabilidad de los procesos.
       .row(titulo="Observación directa")
         .col-12.mb-4.mb-md-0
-          p El auditor debe corroborar que los documentos y los registros presentan la este debe realizar visitas o inspecciones directas al interior de la organización y verificar que lo que dicen los documentos se ajustan a la realidad de lo que ocurre en la empresa. 
+          p El auditor debe asegurarse de que los documentos y registros concuerden con la realidad de la organización. Para hacerlo, debe llevar a cabo visitas o inspecciones directas en el interior de la empresa y verificar que la información contenida en los documentos se corresponda con lo que ocurre en la práctica.
 
     p.mb-5(data-aos="fade-down") Por otro lado, existen otros tipos de evidencia objetiva que se pueden tener en cuenta al momento de realizar una auditoría.
 
@@ -88,7 +88,7 @@
             img(src='@/assets/curso/temas/tema2/tema2-6.png', alt='')
       .row(titulo="Evidencia documental")
         .col-md-6.mb-4.mb-md-0
-          p Corresponde a la información que presenta la organización a manera de registros, o manuales. Aunque es bastante útil, no siempre está documentada por lo que hay que revisar otras fuentes.
+          p Corresponde a la información que presenta la organización a manera de registros, o manuales. Aunque es bastante útil, no siempre está documentada, por lo que hay que revisar otras fuentes.
         .col-md-6
           figure
             img(src='@/assets/curso/temas/tema2/tema2-7.png', alt='')

@@ -142,7 +142,7 @@
                       i.lista-ul__vineta
                       | Incumplimiento de la planeación. 
 
-    p.mb-4(data-aos="fade-down-left") Por consiguiente, cuando el equipo auditor desarrolla el proceso, define los hallazgos por sus características las cuales se encuentran en la siguiente lista:
+    p.mb-4(data-aos="fade-down-left") Por consiguiente, cuando el equipo auditor desarrolla el proceso, define los hallazgos por sus características, las cuales se encuentran en la siguiente lista:
 
     ul.lista-ul.ms-3.mb-4(data-aos="fade-down")
       li.mb-0

@@ -22,7 +22,7 @@
         LineaTiempoD.color-acento-botones.mb-5
           .row(numero="1" titulo="La observación directa")
             .col-md-6.mb-4.mb-md-0
-              p El observador, que en este caso es el auditor previamente acuerda con el personal de la empresa realizar las observaciones, ya sea siendo espectador en los procesos de la organización o interviniendo en las actividades.
+              p El observador, que en este caso es el auditor, previamente acuerda con el personal de la empresa realizar las observaciones, ya sea siendo espectador en los procesos de la organización o interviniendo en las actividades.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/tema3-2.png', alt='')
@@ -40,7 +40,7 @@
                 img(src='@/assets/curso/temas/tema3/tema3-4.png', alt='')
           .row(numero="4" titulo="La observación no participativa")
             .col-md-6.mb-4.mb-md-0
-              p En este tipo de observación el auditor se abstiene de participar en las actividades de la organización con el objetivo de minimizar los efectos de su intervención en la cotidianidad de la empresa.
+              p En este tipo de observación, el auditor se abstiene de participar en las actividades de la organización con el objetivo de minimizar los efectos de su intervención en la cotidianidad de la empresa.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/tema3-5.png', alt='')

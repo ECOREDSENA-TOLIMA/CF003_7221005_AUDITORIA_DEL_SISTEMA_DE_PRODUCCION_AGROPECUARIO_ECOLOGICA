@@ -15,10 +15,10 @@
         p.mb-0 Las técnicas de evaluación hacen referencia a los recursos de investigación, que el auditor utiliza para buscar la información necesaria para desarrollar el trabajo u organizar la que ha sido suministrada por la empresa (evidencia primaria) para realizar la verificación.
           br
           br
-          | Es sumamente necesario que estas técnicas de evaluación compilen información que sea comprobable y verídica, por eso es importante que cada actividad verificada esté acompañada de su respectiva certificación o declaración. Por su parte el auditor debe tener el criterio necesario para adaptar sus conocimientos a los requerimientos de cada entidad, es decir que las técnicas dependen del auditor, las que se utilizan con mayor frecuencia se presentan a continuación:
+          | Es sumamente necesario que estas técnicas de evaluación compilen información que sea comprobable y verídica, por eso es importante que cada actividad verificada esté acompañada de su respectiva certificación o declaración. Por su parte, el auditor debe tener el criterio necesario para adaptar sus conocimientos a los requerimientos de cada entidad, es decir que las técnicas dependen del auditor, las que se utilizan con mayor frecuencia se presentan a continuación:
 
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-down-left")
-      SlyderA(tipo="b")
+      SlyderA.slyder-a(tipo="b")
         .row
           .col-md-6.col-12.mb-4.mb-md-0
             h4 Estudio general
@@ -80,7 +80,7 @@
         .row
           .col-md-6.col-12.mb-4.mb-md-0
             h4 Observación
-            p Se revisa cómo en la práctica se realizan las actividades y se verifica #[em in situ], es decir de forma física el desarrollo de las mismas.
+            p Se revisa cómo en la práctica se realizan las actividades y se verifica #[em in situ], es decir, de forma física el desarrollo de las mismas.
           .col-md-6.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-9.png', alt='')

@@ -77,16 +77,16 @@
     PasosA.color-primario.mb-5(tipo="l" data-aos="fade-down-left")
       div
         h3 Inicio
-        p De manera breve y amable el auditor explica el objetivo de la entrevista y solicita la colaboración para responder las preguntas lo más cercano que sea posible a la realidad.
+        p De manera breve y amable, el auditor explica el objetivo de la entrevista y solicita la colaboración para responder las preguntas lo más cercano que sea posible a la realidad.
       div
         h3 Apertura
-        p En esta fase el auditor inicia el interrogatorio ciñéndose a la lectura de las preguntas que se encuentran en la encuesta.
+        p En esta fase, el auditor inicia el interrogatorio ciñéndose a la lectura de las preguntas que se encuentran en la encuesta.
       div
         h3 Cima
         p Aquí el auditor obtiene la mayor información posible, gracias a  su habilidad y experticia en el manejo de estas técnicas, ya que es en esta fase que se centra el objetivo de la entrevista.
       div
         h3 Cierre
-        p En esta fase el auditor genera un espacio para que el entrevistado abiertamente proporcione información complementaria a las preguntas generadas para finalmente hacer el cierre a la entrevista.
+        p En esta fase, el auditor genera un espacio para que el entrevistado abiertamente proporcione información complementaria a las preguntas generadas para finalmente hacer el cierre a la entrevista.
 
     p.mb-5(data-aos="fade-down-left") El auditor, en su rol de investigador, tiene la flexibilidad de elegir entre diferentes tipos de entrevistas según los objetivos de la auditoría y las circunstancias específicas. Los tipos de entrevistas que pueden ser utilizados incluyen:
 
@@ -141,7 +141,7 @@
         LineaTiempoD.color-acento-botones.mb-5
           .row(numero="1" titulo="Entrevistas libres")
             .col-md-6.mb-4.mb-md-0
-              p Se trabaja sin un orden establecido, sin estructura, con preguntas abiertas lo cual permite que el entrevistado responda abiertamente a manera de conversación.
+              p Se trabaja sin un orden establecido, sin estructura, con preguntas abiertas, lo cual permite que el entrevistado responda abiertamente a manera de conversación.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema4/tema4-5.png', alt='')

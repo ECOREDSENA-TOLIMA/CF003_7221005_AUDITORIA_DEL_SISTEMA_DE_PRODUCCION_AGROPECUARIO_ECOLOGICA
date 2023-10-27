@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Ejecución de auditoría',
     descripcionCurso:
-      'Este componente contiene los elementos necesarios para que el aprendiz desarrolle conocimientos sobre cómo redactar un informe de auditoría revisando la documentación de una unidad productiva y utilizando los instrumentos de auditoría para la recolección de información, con el fin de realizar un informe final con los resultados (hallazgos) encontrados a la junta directiva para acciones de mejora continua.',
+      'Este componente contiene los elementos necesarios para que el aprendiz desarrolle conocimientos sobre cómo redactar un informe de auditoría, revisando la documentación de una unidad productiva y utilizando los instrumentos de auditoría para la recolección de información, con el fin de realizar un informe final con los resultados (hallazgos) encontrados a la junta directiva para acciones de mejora continua.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -330,12 +330,12 @@ export default {
       autores: [
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Naranjo Farfán',
-          cargo: 'Validación de contenidos accesibles',
+          cargo: 'Validación de Contenidos Accesibles',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
